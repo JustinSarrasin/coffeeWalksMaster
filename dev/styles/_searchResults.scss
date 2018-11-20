@@ -1,0 +1,52 @@
+.searchResults {
+   height: 70px;
+   background: rgba(71, 57, 48, 0.644);
+   width: 100%;
+   padding: 5px 15px 10px;
+   // margin: 10px;
+   border-radius: 3px;
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+}
+
+.cafe {  
+   display: flex;
+   justify-content: center;
+   width: 33.33%;
+   text-align: center;
+
+   h4 {
+      color: $color5;
+      line-height: 1.4;
+      // margin-top: 5px;
+      border-bottom: 1px solid $color7;
+   }
+
+   h3 {
+      margin-top: 10px;
+   }
+   div {
+      height: 50px;
+   }
+}
+
+.cafeGoBottom {
+   display: none;
+   width: 100%;
+}
+
+@media (max-width: 550px) {
+   .cafe {
+      width: 50%;
+   }
+
+   .cafe.cafeGo {
+      display: none;
+   }
+
+   .cafeGoBottom {
+      display: flex;
+      justify-content: center;
+   }
+}

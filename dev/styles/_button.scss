@@ -1,0 +1,147 @@
+.lrgButton,
+.medButton,
+.smlButton,
+.walkButtonInput,
+.walkButton,
+.saveWalkButton,
+.insideButton,
+.logOutButton {
+   border-radius: 5px;
+   transition: all 0.2s;
+
+}
+
+.lrgButton {
+   display: block;
+   background: #2e251f;
+   padding: 40px 20px 50px;
+   border: 1px solid $color4;
+   color: $color4;
+   width: 250px;
+   height: 100px;
+   font-family: $bodyFont;
+   margin: 5px auto;
+   text-align: center;
+   margin-bottom: 15px;
+   &:hover {
+      background-color: #442c1c;
+   }
+   &:active{
+      transform: scale(.98);
+   }
+}
+
+.medButton {
+   display: block;
+   background: #2e251f;
+   padding: none;
+   border: 1px solid $color4;
+   color: $color4;
+   height: 50px;
+   font-family: $bodyFont;
+   margin: 5px auto;
+   text-align: center;
+   &:hover {
+      background-color: #442c1c;
+   }
+   &:active{
+      transform: scale(.98);
+   }
+}
+
+.saveWalkButton {
+   height: 130px;
+   width: 200px;
+}
+
+.smlButton {
+   background: $color6;
+   padding: 7px 10px 10px;
+   border: 1px solid $color4;
+   color: $color4;
+   width: 85px;
+   height: 30px;
+   font-family: $bodyFont;
+   font-size: 13px;
+   &:hover {
+      background-color: #442c1c;
+   }
+   &:active{
+      transform: scale(.98);
+   }
+}
+
+.walkButton {
+   display: inline-block;
+   background: #2e251f;
+   padding: 20px 10px 15px;
+   border-radius: 100px;
+   border: 1px solid #e3c59a;
+   color: #e3c59a;
+   max-width: 350px;
+   width: 70%;
+   height: 60px;
+   font-family: $bodyFont;
+   margin: 0 20px;
+   text-align: center;
+   &:hover {
+      background-color: #442c1c;
+   }
+   &:active{
+      transform: scale(.98);
+   }
+}
+
+.walkButtonInput {
+   display: block;
+   background: $color6;
+   padding: 20px 25px;
+   border: 1px solid #e3c59a;
+   color: #e3c59a;
+   max-width: 350px;
+   width: 95%;
+   height: 30px;
+   font-family: $bodyFont;
+   margin: 5px auto;
+   text-align: center;
+   &:hover {
+      background-color: #442c1c;
+   }
+}
+
+.insideButton {
+   padding: 5px;
+   margin: 5px;
+   color: $color5;
+   border: 1px solid $color5;
+   background-color: $color6;
+   border-radius: 5px;
+   &:hover {
+      background-color: #442c1c;
+   }
+   &:active{
+      transform: scale(.98);
+   }
+}
+
+.walkButtonMap {
+   color: #e3c59a;
+   background: #2e251f;
+   width: 175px;
+   height: 50px;
+   font-family: "Roboto", sans-serif;
+   margin: 0 20px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 100px;
+   z-index: 2;
+   transition: all 0.2s;
+
+   &:hover {
+      background-color: #442c1c;
+   }
+   &:active{
+      transform: scale(.98);
+   }
+}

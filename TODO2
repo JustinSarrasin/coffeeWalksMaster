@@ -1,0 +1,15 @@
+PROCESS
+- We have mapped out starting CAFE options.
+- set up marker (potentially)
+- within marker -> confirm button
+- CONFIRM button
+   - creates new center point
+   - empty the state of CAFE CHOICES.
+   - repopulate CAFE CHOICES with new center point data.
+
+... end cafe... directions...
+
+cafe choices: []
+-> fill it with nearbyPlaces
+use it
+-> nearby end CAFEs

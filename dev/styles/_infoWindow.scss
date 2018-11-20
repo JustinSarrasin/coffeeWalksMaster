@@ -1,0 +1,61 @@
+.infoWindowContainer {
+   background-color: $color1;
+   max-width: 200px;
+   transition: all 0;
+}
+
+.infoWindows {
+   font-family: 'Roboto', sans-serif;
+   text-align: left;
+   transition: all 0;
+   // background-color: $color1;
+   
+
+} 
+
+.infoWindows p {
+   text-align: left;
+   // display: block;
+   // width: 100%;
+}
+
+.infoWindow_header {
+   font-weight: 700;
+   font-size: 16px;
+}
+
+.optionButton {
+   padding: 5px;
+   margin: 5px;
+   color: #e3c59a;
+   border: 1px solid #e3c59a;
+   background-color: $color1;
+   transition: all 0.2s;
+
+   &:focus{
+      outline: none;
+   }
+   &:hover {
+      background-color: #442c1c;
+   }
+   &:active{
+      transform: scale(.98);
+   }
+}
+
+
+
+
+.startingDest {
+   display: block;
+   width: 100%;
+   margin: 0;
+   margin-bottom: 4px;
+}
+
+.endingDest {
+   width: 100%;
+   display: block;
+   float: left;
+   margin: 0;
+}

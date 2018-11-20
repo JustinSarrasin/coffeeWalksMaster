@@ -1,0 +1,24 @@
+LEXICON
+- starting user AREA
+- starting CAFE
+- end CAFE
+
+
+STEPS
+- choice of starting AREA
+   - choice is there.
+   - connect to map. FERD
+- array of cafés within 1km
+   - 
+- choice of starting CAFE
+- choice of max search distance (for end cafe).
+- directions/walking route choices.
+- choice of walking direction.
+...
+- save walk
+- share walk
+
+
+COMPONENTS
+- list of coffee shops (near starting udrt AREA)
+-
